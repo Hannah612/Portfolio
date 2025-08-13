@@ -1,0 +1,1 @@
+export const titleStyle = "mx-auto underline text-2xl m-5";
