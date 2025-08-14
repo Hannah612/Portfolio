@@ -14,9 +14,11 @@ export default {
         "pale-green":"#8FB9A8",
       },
       fontFamily: {
-        dmsans: ["DM Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"]
+        recursive: ["Recursive", "sans-serif"],
       },
+    },
+    content: {
+      coffeeImg: "url('/assets/coffeeImg.jpg')",
     },
     screens: { 
       xs: "480px",

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');  /*from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');  /*from google fonts*/
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,6 @@ body,
 .app { /*root div styles*/
     height: 100%;
     width: 100%;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Recursive", sans-serif;
     @apply text-white bg-brown-red;
 }
