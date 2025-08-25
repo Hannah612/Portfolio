@@ -1,0 +1,20 @@
+.title {
+    color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #765D69;
+}
+
+.subtitle {
+    text-decoration: underline;
+    /* background-color: #765D69; */
+    background:linear-gradient(90deg,rgba(118, 93, 105, 1) 0%, rgba(118, 93, 105, 1) 75%, rgba(237, 221, 83, 0) 100%);
+}

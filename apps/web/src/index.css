@@ -11,5 +11,5 @@ body,
     height: 100%;
     width: 100%;
     font-family: "Recursive", sans-serif;
-    @apply text-white bg-brown-red;
+    @apply text-white bg-pale-green;
 }

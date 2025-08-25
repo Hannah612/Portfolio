@@ -1,7 +1,7 @@
-export const titleStyle = "mx-auto underline text-2xl m-5";
-
 export enum SelectedPage {
-    MainPage = "mainPage",
+    Home = "home",
     Introduction = "introduction",
     Background = "background",
 }
+
+export const tabSpacing = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
