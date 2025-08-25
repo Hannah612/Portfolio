@@ -11,15 +11,15 @@ type Props = {
 }
 
 const Navbar = ({selectedPage, isTopOfPage, setSelectedPage}: Props) => {
-  const flexBetween = "flex items-center justify-between"; //common layout to align items left and right in navbar  
-  const isAboveMediumScreens = useMediaQuery("(min-width:1060px)"); //boolean
+  const flexBetween = "flex items-center justify-between";  
+  const isAboveMediumScreens = useMediaQuery("(min-width:1060px)"); 
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   const navbarBackground = isTopOfPage ? "" : "bg-coral";
 
 
   return <nav>
         <div
-            className={`${flexBetween} fixed top-0 z-50 w-full py-6 ${navbarBackground}`} //flexBetween spaces all the nav bar elements correctly, fixed sticky top navbar
+            className={`${flexBetween} fixed top-0 z-50 w-full py-6 ${navbarBackground}`} 
         >
             <div className={`${flexBetween} mx-auto w-5/6`}> 
                 <div className={`${flexBetween} w-full gap-16`}>
@@ -37,7 +37,7 @@ const Navbar = ({selectedPage, isTopOfPage, setSelectedPage}: Props) => {
                         : (
                             <button className="rounded-full bg-secondary-500 p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
                                 <Bars3Icon className="h-6 w-6 text-white"/>
-                            </button>    //mobile screens 
+                            </button>  
                         )}
                     </div>
                 </div>
