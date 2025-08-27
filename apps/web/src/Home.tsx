@@ -62,7 +62,7 @@ function Home ({setSelectedPage} : Props) {
 
       </div>
 
-      <img className="absolute rounded-full z-0 mt-20" alt="coffeeImg" src={coffeeImg}></img>
+      <img className="absolute rounded-full z-0 md:ml-28 mt-20" alt="coffeeImg" src={coffeeImg}></img>
     </motion.div>
 
   </section>
