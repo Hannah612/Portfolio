@@ -7,13 +7,13 @@ type Props = { setSelectedPage: (selectedPage: SelectedPage) => void}
 
 //add tabs in front of paragraphs 
 const Background = ({setSelectedPage}: Props) => {
-  return <section id="background" className="py-32">
+  return <section id="background" className="py-52">
     <motion.div className="" onViewportEnter={() => setSelectedPage(SelectedPage.Background)}>
     
       <TitleContent title="Background">
         
         <p>
-          <img className="float-right rounded-full z-0 mt-30" alt="sunsetImg" src={sunsetImg}></img>
+          <img className="float-right rounded-full mt-30" alt="sunsetImg" src={sunsetImg}></img>
           My interest in computer science began in high school, where I first learned the fundamental programming basics using Python.
           After creating a few school projects involving simple beginner programs and games, I was able to learn Java and the elementary data structure theories
           such as arrays, lists, and relative uses.

@@ -15,6 +15,11 @@
 
 .subtitle {
     text-decoration: underline;
-    /* background-color: #765D69; */
     background:linear-gradient(90deg,rgba(118, 93, 105, 1) 0%, rgba(118, 93, 105, 1) 75%, rgba(237, 221, 83, 0) 100%);
 }
+
+.fadedBg {
+    z-index: 2;
+    background:linear-gradient(90deg,rgb(150, 150, 150) 0%, rgb(177, 177, 177) 75%, rgba(160, 160, 160, 0) 100%);
+}
+

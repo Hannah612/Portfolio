@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 import { SelectedPage } from "../utils/shared.ts"
 import Background from "./Background.tsx"
-import Introduction from "./Introduction.tsx"
 import Navbar from "./Navbar.tsx"
 import Home from "./Home.tsx"
 
@@ -25,7 +24,6 @@ function App() {
   return <div className="app bg-scroll">
       <Navbar isTopOfPage={isTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       <Home setSelectedPage={setSelectedPage}/>
-      <Introduction setSelectedPage={setSelectedPage}/>
       <Background setSelectedPage={setSelectedPage}/>
     </div>
 }

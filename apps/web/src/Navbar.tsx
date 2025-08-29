@@ -14,7 +14,7 @@ const Navbar = ({selectedPage, isTopOfPage, setSelectedPage}: Props) => {
   const flexBetween = "flex items-center justify-between";  
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)"); 
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-  const navbarBackground = isTopOfPage ? "" : "bg-coral";
+  const navbarBackground =  isTopOfPage ? "" : "bg-coral";
 
 
   return <nav>
@@ -47,13 +47,12 @@ const Navbar = ({selectedPage, isTopOfPage, setSelectedPage}: Props) => {
              {!isAboveMediumScreens && isMenuToggled && (
             <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-coral drop-shadow-xl">
                 <div className="flex justify-end p-12">
-                    <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                    {/* <button onClick={() => setIsMenuToggled(false)}>
                         <XMarkIcon className="h-6 w-6 text-white"/>
-                    </button>
+                    </button> */}
                 </div>
                 <div className="ml-[33%] flex flex-col gap-10 text-xl">
                     <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/> 
-                    <Link page="Introduction" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Link page="Background" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                 </div>
             </div>
