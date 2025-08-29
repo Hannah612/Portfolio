@@ -2,7 +2,7 @@ import { useState } from "react"
 import Link from "../utils/Link"
 import type { SelectedPage } from "../utils/shared"
 import useMediaQuery from "../utils/useMediaQuery"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
+import { Bars3Icon } from "@heroicons/react/24/solid"
 
 type Props = {
     selectedPage: SelectedPage
