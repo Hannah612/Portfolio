@@ -10,7 +10,7 @@
 .paragraph {
     margin-left: 20px;
     margin-right: 20px;
-    color: #765D69;
+    color: white;
 }
 
 .subtitle {
@@ -20,6 +20,7 @@
 
 .fadedBg {
     z-index: 2;
-    background:linear-gradient(90deg,rgb(150, 150, 150) 0%, rgb(177, 177, 177) 75%, rgba(160, 160, 160, 0) 100%);
+    position: absolute;
+    background:linear-gradient(90deg,rgb(107, 114, 128) 0%, rgb(177, 177, 177) 75%, rgba(160, 160, 160, 0) 100%);
 }
 

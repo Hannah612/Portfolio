@@ -3,6 +3,7 @@ import { SelectedPage } from "../utils/shared.ts"
 import Background from "./Background.tsx"
 import Navbar from "./Navbar.tsx"
 import Home from "./Home.tsx"
+import PreviousEmployments from "./PreviousEmployments.tsx"
 
   
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Navbar isTopOfPage={isTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       <Home setSelectedPage={setSelectedPage}/>
       <Background setSelectedPage={setSelectedPage}/>
+      <PreviousEmployments setSelectedPage={setSelectedPage}/>
     </div>
 }
 

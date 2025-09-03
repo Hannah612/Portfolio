@@ -7,8 +7,8 @@ type Props = { setSelectedPage: (selectedPage: SelectedPage) => void}
 
 //add tabs in front of paragraphs 
 const Background = ({setSelectedPage}: Props) => {
-  return <section id="background" className="py-52">
-    <motion.div className="" onViewportEnter={() => setSelectedPage(SelectedPage.Background)}>
+  return <section id="background" className="py-20 h-full">
+    <motion.div className="mb-10" onViewportEnter={() => setSelectedPage(SelectedPage.Background)}>
     
       <TitleContent title="Background">
         

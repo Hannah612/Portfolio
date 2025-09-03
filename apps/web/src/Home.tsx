@@ -33,7 +33,7 @@ function Home ({setSelectedPage} : Props) {
   return <section id="home" className="h-full">
 
 
-    <motion.div className="relative flex justify-center ml-32 md:ml-60"
+    <motion.div className="relative flex justify-center mt-[-80px] ml-32 md:ml-60"
         onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
 >
       <img className="z-0 ml-60 fixed md:ml-96 mt-10 w-44" alt="circleImg" src={circleImg}></img>
@@ -44,9 +44,9 @@ function Home ({setSelectedPage} : Props) {
         <h4 className={`${textPositioning} mt-52 text-7xl`}>Hannah Ng</h4>
         <p className={`${textPositioning} mt-5 bg-light-pink text-gray-700`}>Web Developer</p>
         <div className="flex w-96 my-5">
-          <p className=" text-white fadedBg rounded-sm ">
+          <p className=" text-white rounded-md bg-gray-500 md:bg-transparent">
             Hello there! My name is Hannah and I am a recent graduate of Carleton University in Ottawa, Ontario. I am currently looking for a fitting job in my field of 
-            expertise, full-stack development. My most recent projects use React, JavaScript, SQL, NodeJs, Springboot, and simliar technologies, as noted above.
+            expertise, full-stack development. My most recent projects use React, JavaScript, SQL, NodeJs, and Springboot.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ function Home ({setSelectedPage} : Props) {
 
         <h3 className="subtitle mr-[500px] mt-[30px] text-sm">Familiar Languages and Technologies</h3>
         <div className="ml-5">
-          <ul className="mx-auto list-disc">
+          <ul className="list-disc h-32 overflow-auto w-40">
             {familiar.map((familiarObj) => 
               <li key={familiarObj.id}>
                 <p>{familiarObj.item}</p>
